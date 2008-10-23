@@ -1,0 +1,25 @@
+ContextualLinking
+=================
+
+This plugin allows you to use the tag contextual_links to display some contextual links on the page that are related to the current page. It matches the value of the keywords that you define when adding/editing a page. It default to displaying 3 links if it can find that many matches. 
+The links will be displayed in an unordered list.
+This is an experimental plugin used to demo contextual linking and I am not currently using it any productions sites.
+
+
+Example
+=======
+Simple
+<r:contextual_links/>
+
+limit to 5 links
+<r:contextual_links limit="5"/>
+
+specify some additional keywords as well to search on
+<r:contextual_links limit="5" keywords="milk sugar"/>
+
+
+ToDo
+=======
+Full testing required.
+
+Copyright (c) 2008 Matthew Fawcett, released under the MIT license

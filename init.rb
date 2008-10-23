@@ -1,0 +1,1 @@
+require 'contextual_linking'
