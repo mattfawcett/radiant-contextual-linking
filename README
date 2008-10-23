@@ -5,6 +5,10 @@ This plugin allows you to use the tag contextual_links to display some contextua
 The links will be displayed in an unordered list.
 This is an experimental plugin used to demo contextual linking and I am not currently using it any productions sites.
 
+Install
+=======
+ruby script/plugin install git://github.com/mattfawcett/radiant-contextual-linking.git
+
 
 Example
 =======
